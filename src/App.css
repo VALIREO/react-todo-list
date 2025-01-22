@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Press+Start+2P&display=swap');
+
+
+
+/* Apply Playfair Display globally */
+body {
+  font-family: 'Playfair Display', serif;
+}
+
+/* Apply Press Start for input fields */
+input {
+  font-family: 'Press Start 2P', cursive;
+}
+
+button {
+  font-family: 'Playfair Display', serif; /* Matches the global font */
+}
+
+/* Optional: Add some extra styling */
+input {
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding: 10px;
+}
+
+.task-item {
+  cursor: pointer;
+  transition: 300ms ease;
+}
+
+.task-item.completed {
+  text-decoration: line-through;
+  color: #aaa;
+  transition: 300ms ease;
+}
+
+.delete-icon {
+  cursor: pointer;
+  color: #dc3545;
+  transition: color 200ms ease;
+}
+
+.delete-icon:hover {
+  color: #ff6b6b;
+}
