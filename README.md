@@ -5,7 +5,7 @@
 This is a collaborative project to build a To-Do List application using **React** and **Bootstrap**. The project is split into two parts:
 
 - **Hamza's role**: Focuses on the structure and styling of the application.
-- **Friend's role**: Implements functionality such as adding, deleting, and marking tasks as complete.
+- **Ahmed's role**: Implements functionality such as adding, deleting, and marking tasks as complete.
 
 ---
 
@@ -30,7 +30,7 @@ This is a collaborative project to build a To-Do List application using **React*
   - Add custom CSS for hover effects, completed task styles, and icon interactions.
 - **Ensure compatibility**: Ensure the UI is prepared for dynamic functionality.
 
-### Friend's Responsibilities
+### Ahmed's Responsibilities
 
 - **Functionality**:
   - Handle input changes and manage the task state.
@@ -109,7 +109,7 @@ project-folder/
   - Set up the structure using Bootstrap cards, input groups, and lists.
   - Add placeholders for dynamic task rendering.
   - Style components using Bootstrap and custom CSS.
-- **Friend's Part**:
+- **Ahmed's Part**:
   - Implement functionality to handle state for tasks (e.g., `useState`).
   - Dynamically render tasks in the list.
   - Add event handlers for task actions (add, delete, mark as complete).
